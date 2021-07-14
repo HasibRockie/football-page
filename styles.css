@@ -70,6 +70,7 @@
 
 .headline{
     display: flex;
+    align-items: center;
 }
 
 .half-width{
@@ -78,9 +79,9 @@
 }
 
 .title{
-    font-size: 64px;
+    font-size: 74px;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 85px;
     font-family: "Poppins", sans-serif;
     color: white;
 }
@@ -272,7 +273,9 @@ span{
 }
 
 .extra h1{
-    font-size: 75px;
+    font-size: 65px;
+    text-align: left;
+
 }
 
 .extra h1:hover{
