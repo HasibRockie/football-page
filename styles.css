@@ -14,18 +14,17 @@
             header          
 ------------------------------*/
 .intro{
-    width: 1440px;
-    height: 677px;
+    width: 100%;
+    min-height: 677px;
     background-color: #2D25A0;
 }
 
 .nav{
     height: 46px;
-    width: 1160px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 35px 150px;
+    padding: 35px 100px 35px 75px;
 }
 
 .nav-bar ul{
@@ -75,7 +74,7 @@
 
 .half-width{
     width: 50%;
-    padding: 50px 50px 50px 150px ;
+    padding: 50px 50px 50px 75px ;
 }
 
 .title{
@@ -127,6 +126,7 @@
 .container{
     padding-top: 70px;
     display: grid;
+    place-content: center;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
@@ -549,7 +549,7 @@ footer img{
 
     .player{
         width: 95%;
-    
+        height: auto;
     }
 
     /*-----------------------------------
